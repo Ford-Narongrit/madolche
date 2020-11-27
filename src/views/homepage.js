@@ -1,7 +1,12 @@
 import React from 'react'
+import Narbar from '../components/navBar'
+import Content from '../components/content'
 
 export default function homepage() {
     return (
-        <h1>START PRoject</h1>
-    )
+        <div>
+            <Narbar/>
+            <Content/>
+        </div>
+    );
 }
