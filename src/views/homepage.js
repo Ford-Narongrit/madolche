@@ -1,12 +1,15 @@
 import React from 'react'
-import Narbar from '../components/navBar'
-import Content from '../components/content'
+import TopNavBar from '../components/topNavBar'
+import SideNavBar from '../components/sideNavBar'
 
 export default function homepage() {
     return (
         <div>
-            <Narbar/>
-            <Content/>
+            <TopNavBar/>
+            <SideNavBar/>
+            <div >
+                <div><h1>popular today</h1></div>
+            </div>
         </div>
     );
 }

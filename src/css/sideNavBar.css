@@ -1,0 +1,16 @@
+.sidenav {
+    position: fixed;
+    padding-bottom: 100%;
+    float: left;
+    background-color: rgb(219, 18, 18)
+}
+.sidenav h1 {
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    margin: 0%;
+}
+.sidenav :hover {
+    background-color: aqua;
+}
