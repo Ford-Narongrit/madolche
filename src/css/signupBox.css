@@ -1,0 +1,19 @@
+@media all and (min-width: 480px) {
+h1 {
+  text-align: center;
+}
+  
+  .signup {
+      padding: 60px 0;
+    }
+  
+  .signup form {
+      margin: 0 auto;
+      max-width: 320px;
+    }
+
+
+  .Jumbotron {
+    height: 500px; 
+  }
+  }
