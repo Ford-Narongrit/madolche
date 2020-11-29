@@ -1,0 +1,36 @@
+.header {
+    background-color: rgb(195, 105, 212);
+    overflow: hidden;
+    padding: 14px 10px;
+}
+.header a{
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    color: white;
+}
+.header a :hover{
+    background-color: violet;
+}
+
+.header span{
+    padding: 10px;
+    float: right;
+}
+
+.header input{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    background: rgb(231, 160, 231);
+}
+
+.header button{
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+
+
+

@@ -1,15 +1,17 @@
 import React from 'react'
-import TopNavBar from '../components/topNavBar'
-import SideNavBar from '../components/sideNavBar'
+import HeaderNavBar from '../components/header'
+import NavBar from '../components/navBar'
+import RecommendBar from '../components/recommendBar'
 
 export default function homepage() {
     return (
         <div>
-            <TopNavBar/>
-            <SideNavBar/>
-            <div >
-                <div><h1>popular today</h1></div>
+            <HeaderNavBar/>
+            <NavBar/> 
+            <div>
+                recommand today
             </div>
+            <RecommendBar/>
         </div>
     );
 }

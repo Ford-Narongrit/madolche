@@ -1,0 +1,17 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    align-content: center;
+    float: left;
+}
+.container a img {
+    width: 140px;
+    height: auto;
+    padding: 14px 16px;
+}
+
+.container :hover {
+    background-color: white;
+}
+
