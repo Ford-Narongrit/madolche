@@ -1,5 +1,5 @@
 .header {
-    background-color: rgb(195, 105, 212);
+    background-color: #CF4D6F;
     overflow: hidden;
     padding: 14px 10px;
     position: fixed;
@@ -14,7 +14,7 @@
     color: white;
 }
 .header a :hover{
-    background-color: violet;
+    background-color: #6e3b59;
 }
 
 .header span{
@@ -26,7 +26,7 @@
     padding: 10px;
     font-size: 15px;
     border: none;
-    background: rgb(231, 160, 231);
+    background: white;
 }
 
 .header button{
