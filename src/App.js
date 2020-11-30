@@ -3,13 +3,17 @@ import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import homepage from './views/homepage'
+import homepage from './views/homePage'
 import loginPage from './views/loginPage'
-import signupBox from './components/signupBox'
+import signUpPage from './components/signupBox'
 function App() {
   return (
     <HashRouter>
-      <Route exact path = "/" component = { signupBox }/>
+      <Route exact path = "/" component = { homepage }/>
+      <Route path = "/signUpPage" component = { signUpPage } />
+      <Route path = "/loginPage" component = { loginPage } />
+
+
     </HashRouter>
   );
 }

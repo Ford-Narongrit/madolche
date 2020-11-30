@@ -1,10 +1,12 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import "../css/loginPage.css"
+import Header from '../components/header'
 
 export default function loginPage(props) {
     return (
         <div className="mycontainer">
+            
             <div className="row" style={{height: "100vh"}}>
                 <div className="col-sm-4 left">
                     <a></a>
@@ -13,7 +15,7 @@ export default function loginPage(props) {
                             <div >
                                 <h2 className="loginHead">LoginPage</h2>
                                 <br/>
-                                <form action="/homepage" style = {{color : "black"}}>
+                                <form action="/homepag" style = {{color : "black"}}>
                                 
                                 <input className="inputStyle" type = "text" name = "username" placeholder="username"/>
                                 <br/>
@@ -28,6 +30,7 @@ export default function loginPage(props) {
                             <a href="./signUpPage"><button className="btnSignup" >Sign Up  </button> </a>
                 </div>
             </div>
+            <Header/>
         </div>
         
         

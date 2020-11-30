@@ -7,11 +7,13 @@ export default function homepage() {
     return (
         <div>
             <HeaderNavBar/>
-            <NavBar/> 
-            <div>
-                recommand today
-            </div>
-            <RecommendBar/>
+            <div style={{ marginTop:'30px' }}>
+            </div>    <NavBar/> 
+                <div>
+                    recommand today
+                </div>
+                <RecommendBar/>
+
         </div>
     );
 }

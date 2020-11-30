@@ -13,7 +13,7 @@ html, body {
 .mycontainer{
     width: 100%;
     min-height: 100%;
-    background-image: url("../img/madolcheDog.png");
+    background-image: url("../images/madolcheDog.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

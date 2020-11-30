@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import '../css/navBar.css'
 
 import dessert from '../images/dessert.jpg'
+import header from './header'
+import signup from './signupBox'
 
 export default function navBar(props) {
     return (

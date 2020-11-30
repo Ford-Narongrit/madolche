@@ -6,7 +6,7 @@ export default function header(props) {
     return (
         <div className="header">
             <Link to="/"><a>Madochle</a></Link>
-            <Link to="/"><a>Login</a></Link>
+            <Link to="/loginPage"><a>Login</a></Link>
             <span>
                 <input type="text" placeholder="Search.."></input>
                 <button type="submit"><i class="fa fa-search"></i></button>
