@@ -3,14 +3,16 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import Jumbotron from "react-bootstrap/Jumbotron"
 import Container from "react-bootstrap/Container"
+import mdc from "../images/madolcheDog.png"
+
 import "../css/signupBox.css";
 
 export default function signup() {
   
     return (
-      <div className="signup">
+      <div className="signup" styles={{ backgroundImage:`url(${mdc})`}}>
           <Jumbotron>
-            <h1>Sign Up</h1>
+            <h1 className="headTile">Sign Up</h1>
             <Form>
               <Form.Group size="lg" controlId="firstName">
                 <Form.Label>First Name</Form.Label>

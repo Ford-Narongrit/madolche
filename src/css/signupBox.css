@@ -1,10 +1,11 @@
 @media all and (min-width: 480px) {
-h1 {
+
+.headTile{
   text-align: center;
 }
-  
-  .signup {
-      padding: 60px 0;
+ .jumbotron {
+    margin-left: 35rem;
+    margin-right: 35rem;
     }
   
   .signup form {

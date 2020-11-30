@@ -1,0 +1,15 @@
+#signup {
+    width: 100%;
+    min-height: 100%;
+    background-image: url("../images/madolcheDog.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+}
+
+
+
+#signup :hover {
+    background-color: white;
+}
