@@ -6,14 +6,15 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import homepage from './views/homePage'
 import signInPage from './views/signInPage'
 import signUpPage from './views/signUpPage'
+import showPage from './views/showPage';
+
 function App() {
   return (
     <HashRouter>
       <Route exact path = "/" component = { homepage }/>
       <Route path = "/signUpPage" component = { signUpPage } />
       <Route path = "/loginPage" component = { signInPage } />
-
-
+      <Route path = "/showPage" component = { showPage } />
     </HashRouter>
   );
 }
