@@ -19,3 +19,18 @@
 
 }
 
+
+.blockColumn {
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #311E10;
+}
+
+.blockColumn > div {
+    background-color: #EDABB1;
+    flex-grow: 1;
+    margin: 10px;
+    text-align: left;
+    overflow: hidden;
+    text-align: center;
+}

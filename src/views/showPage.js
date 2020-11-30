@@ -4,6 +4,7 @@ import dessert from '../images/dessert.jpg'
 
 import HeaderNavBar from '../components/header'
 import Step from '../components/step'
+import BlockDetail from "../components/blockDetail";
 import { Link } from 'react-router-dom'
 
 
@@ -14,9 +15,9 @@ export default function showPage() {
             <div class="row">
                 <div class="column">
                     <h2 style={{ textAlign: "center" ,marginBlockEnd: '30px' }}>ชื่ออาหาร</h2>
-
+                    
                     {/* tag */}
-
+                    <BlockDetail time='20 นาที' diff='ยากมากกก' size='4 คน'/>
                     <Step step="1" detail='faefefgagmklramg' image='https://s.isanook.com/ca/0/ui/279/1396205/s__152616986_1562561122.jpg'/>
                     <Step step="1" detail='faefefgagmklramg' image='https://s.isanook.com/ca/0/ui/279/1396205/s__152616986_1562561122.jpg'/>
                     <Step step="1" detail='faefefgagmklramg' image='https://s.isanook.com/ca/0/ui/279/1396205/s__152616986_1562561122.jpg'/>
