@@ -1,7 +1,8 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import "../css/loginPage.css"
 import Header from '../components/header'
+
+import "../css/signPage.css"
 
 export default function loginPage(props) {
     return (
@@ -30,7 +31,5 @@ export default function loginPage(props) {
             </div>
             <Header/>
         </div>
-        
-        
     );
 }

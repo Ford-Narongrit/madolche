@@ -10,6 +10,10 @@ html, body {
     height: 100vh;
 }
 
+.innerright .h5 ,h5{
+    text-align: left;
+    color: cornsilk;
+}
 .mycontainer{
     width: 100%;
     min-height: 100%;
