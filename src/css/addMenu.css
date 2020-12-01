@@ -1,0 +1,93 @@
+
+
+.content{
+    position:relative;
+}
+
+.left{
+    background-color: blanchedalmond;
+}
+
+.innermiddle{
+    margin-top: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.innerright{
+    background-color: blanchedalmond;
+    padding-left: 40px;
+}
+
+.inUpload{
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.uploadImage{
+    box-sizing: border-box;
+    display: block;
+    position: relative;
+    background: rgb(243, 244, 245);
+    cursor: pointer;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+.suitFor{
+    display: flex;
+    margin: 16px 0px;
+}
+
+.suitForLabel{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    white-space: nowrap;
+    margin-right: 8px;
+}
+
+.suitInput{
+    flex: 1 1 0%;
+}
+
+.ingredientInput{
+    background-color: rgb(243, 244, 245);
+    outline: none;
+    color: rgb(35, 39, 41);
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.1px;
+    font-family: "Helvetica Neue", sans-serif;
+    width: 100%;
+    padding: 6px 9px;
+    box-shadow: none;
+    border: none !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    line-height: 1.75 !important;
+}
+.addIngredientDiv{
+    margin-top: 16px;
+    text-align: center;
+}
+.addIngredient{
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: -0.1px;
+    width: auto;
+    padding: 9px 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    outline: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: 1px solid rgb(118, 121, 122);
+    color: rgb(118, 121, 122);
+    box-sizing: border-box;
+    display: inline-block;
+}
