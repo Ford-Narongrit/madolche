@@ -3,7 +3,7 @@ import React from 'react'
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-import homepage from './views/homePage'
+import homePage from './views/homePage'
 import signInPage from './views/signInPage'
 import signUpPage from './views/signUpPage'
 import showPage from './views/showPage';
