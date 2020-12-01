@@ -1,17 +1,28 @@
 .container {
     display: flex;
     flex-direction: row;
-    background-color: black;
     align-content: center;
-    float: left;
+    margin: 0;
 }
 .container a img {
-    width: 140px;
+    width: 222px;
     height: auto;
     padding: 14px 16px;
+    background-color: black;
 }
-
 .container :hover {
     background-color: white;
 }
+.container a {
+    text-decoration: none;
+}
 
+.container .content {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+}
+#showtext {
+    text-align: center;
+    margin: 0;
+}

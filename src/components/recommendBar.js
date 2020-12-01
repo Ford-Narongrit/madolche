@@ -7,21 +7,46 @@ import dessert from '../images/dessert.jpg'
 export default function recommendBar (){
     return (
         <div className='container'>
-            <Link to='/'>
-                <img src={dessert} alt='rating' />
-            </Link>  
-            <Link to='/'>
-                <img src={dessert} alt='rating' />
-            </Link>  
-            <Link to='/'>
-                <img src={dessert} alt='rating' />
-            </Link>  
-            <Link to='/'>
-                <img src={dessert} alt='rating' />
-            </Link>  
-            <Link to='/'>
-                <img src={dessert} alt='rating' />
-            </Link>
+            <div>
+                <Link to='/showPage' >
+                    <div className='content'>
+                    <img src={dessert} alt='rating' />
+                        <p id='showtext'>dessert1</p>
+                    </div>
+                </Link>
+            </div>
+            <div>
+                <Link to='/showPage' >
+                    <div className='content'>
+                    <img src={dessert} alt='rating' />
+                        <p id='showtext'>dessert2</p>
+                    </div>
+                </Link>
+            </div>
+            <div>
+                <Link to='/showPage' >
+                    <div className='content'>
+                    <img src={dessert} alt='rating' />
+                        <p id='showtext'>dessert3</p>
+                    </div>
+                </Link>
+            </div>
+            <div>
+                <Link to='/showPage' >
+                    <div className='content'>
+                    <img src={dessert} alt='rating' />
+                        <p id='showtext'>dessert4</p>
+                    </div>
+                </Link>
+            </div>
+            <div>
+                <Link to='/showPage' >
+                    <div className='content'>
+                    <img src={dessert} alt='rating' />
+                        <p id='showtext'>dessert5</p>
+                    </div>
+                </Link>
+            </div> 
         </div>
     )
 }

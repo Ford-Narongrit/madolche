@@ -10,6 +10,10 @@ html, body {
     height: 100vh;
 }
 
+.innerright .h5 ,h5{
+    text-align: left;
+    color: cornsilk;
+}
 .mycontainer{
     width: 100%;
     min-height: 100%;
@@ -22,13 +26,11 @@ html, body {
 
 .innerright{
     display: grid;
-  justify-content: center;
-  align-content: center;
-  text-align: center; 
+    justify-content: center;
+    align-content: center;
+    text-align: center; 
     padding-top: 30px;
     background-color: #16697a7c;
-    
-
 }
 
 .loginHead{
@@ -77,7 +79,7 @@ input[type=submit]{
     padding: 0px 4px;
     transition: color 0.2s ease-out 0s, opacity 0.2s ease-out 0s;
     color: rgb(204, 173, 112);
-
+    background-color: rgb(5, 3, 0);
 }
 
 

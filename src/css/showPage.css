@@ -1,0 +1,50 @@
+.column {
+    float: left;
+    width: 50%;
+    padding: 15px;
+}
+  
+.row {
+    margin-inline: 100px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.showimage {
+    width: 80%;
+    border-radius: 15px;
+    border: 5px dotted #311E10;
+}
+
+.ingredientsBorder {
+    margin-top: 25px;
+    width: 80%;
+    border-radius: 15px;
+    border: 5px dotted #311E10;
+    background-color: #EE8A7C;
+}
+
+.ingredientsList {
+    border: 2px solid black;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    width: 80%;
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #F2C473;
+}
+
